@@ -11,4 +11,6 @@ urlpatterns = [
     path('blogs/<int:my_val>/edit', views.edit),
     path('blogs/<int:my_val>/delete',views.destroy)
 
+    
+
 ]
